@@ -1,0 +1,37 @@
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  width: 210px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product-image{
+  width: 150px;
+  height: 150px;
+}
+
+.pagination-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page-number{
+  border: 1px solid black;
+  padding: 5px;
+  margin-inline: 4px;
+  cursor: pointer;
+}
+
+.selected, .page-number:hover{
+  background-color: aquamarine;
+}
